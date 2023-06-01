@@ -10,8 +10,8 @@ const useIsMobile = (): boolean => {
                 navigator.userAgent
             )
         ) {
-            setIsMobile(true);
-            return;
+            setIsMobile(true)
+            return
         }
 
         const updateSize = (): void => {
